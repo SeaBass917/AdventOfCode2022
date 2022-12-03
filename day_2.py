@@ -49,7 +49,7 @@ def part_1():
         rps_games = [[convert(char) for char in text.split(" ")] for text in buffer.split("\n")]
         total_score = sum([score_game(rps_game[1], rps_game[0]) for rps_game in rps_games])
 
-        print( "Part 2:", total_score )
+        print( "Part 1:", total_score )
 
 def part_2():
 
